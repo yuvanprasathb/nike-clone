@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;1,500;1,700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;1,500;1,700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-size:cover;
+    padding: 0;
+    margin: 0;
+    background-repeat:no-repeat;
+}
+#logo{
+    filter:invert(100%);
+    width: 100px;
+    margin: 20px;
+}
+.nav li input{
+    width:100px;
+
+}
+
+
+.container-fluid{
+    background: transparent;
+}
+a{
+    font-family: 'poppins';
+    font-size: 20px;
+    color: white;
+}
+.navbar-nav{
+    margin-top: 20px;
+    padding: 0;
+    
+    
+}
+.icon-bar{
+   background-color: white;
+    color: white;
+}
+.navbar-nav li a:hover{
+    background-color: transparent;
+    
+    color: red}
+    .active a{
+        background-color: transparent;
+        
+        color: red;
+    }
+    #active {
+        background-color: transparent;
+        
+        color: red;
+    }
+    #homeimg{
+        width:100%;
+        padding: 0;
+    margin: 0;
+        
+    }
+    .col-lg-12{
+        padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .row{
+        padding: 0;
+    margin: 0;
+   
+    }
+    h3{
+        font:"poppins";
+        text-align: center;
+        font-weight: 300;
+        color: white;
+        margin-top: 20px;
+    }
+    h1{
+        font:"poppins";
+        text-align: center;
+        font-weight: 500;
+        color: white;
+        margin-top: 10px;
+    }
+    .jumbotron{
+        margin-top: 0px;
+        background-color: transparent;
+    }
+    .jumbotron .display-4{
+        font:"poppins";
+        text-align: center;
+        font-weight: 500;
+        color: white;
+        background-color: transparent;
+        margin-top: 10px;
+    }
+    h4{
+        font:"poppins";
+        text-align: center;
+        font-weight: 300;
+        color: white;
+        margin-top: -40px; 
+    }
+    .btn{
+width: 300px;
+margin-top: 20px;
+background-color: black;
+color: white;
+border-radius: 20px;
+
+font-size: 20px;
+font-family:"poppins"
+    }
+    .btn:hover{
+        box-shadow: 0px 0px 20px white;
+    }
+    .mainbtndiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .embed-responsive{
+        margin-top: 30px;
+    }
+    #nike25desc{
+        margin-top: -70px;
+    }
+    #nike25{
+        margin-top: -30px;
+        background-color: transparent;
+    }
+    #nike25-btn{
+        width: 200px;
+margin-top: 20px;
+background-color: black;
+color: white;
+border-radius: 20px;
+font-size: 20px;
+font-family:"poppins"
+    }
+    #nike25-btn:hover{
+        box-shadow: 0px 0px 20px white;
+    }
+    #comming-soon{
+        margin-bottom: -80px;
+        margin-top: 70px;
+    }
+    .card-img-top{
+        width: 60%;
+        margin-top: 30px;
+        box-shadow: 7px 7px 30px black;
+        border-radius: 10px;
+    }
+    #card_row{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 70px;
+    }
+    .card-title{
+        font-family: "poppins";
+        color: white;
+        font-size: 30px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .card_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-text{
+        font-family: "poppins";
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    .get-it-btn{
+        font-family:"poppins";
+        font-size: 20px;
+        background-color: blueviolet;
+        width:200px;
+        color:white;
+        border-radius: 20px;
+        border:0;
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+    .card-btn1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #comming_soon{
+        font:"poppins";
+        text-align: center;
+        font-weight: 700;
+        color: white;
+        margin-top: 40px;
+    }
+    .divider{
+        background-color: grey;
+        margin-top: 30px;
+        width: 100%;
+        height: 0.5px;
+
+    }
+    .card-btn2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .get-it-btn1{
+        font-family:"poppins";
+        font-size: 20px;
+        background-color: royalblue;
+        width:100px;
+        color:black;
+        border-radius: 20px;
+        border:0;
+        margin-top: 20px;
+        padding-top: 5px;
+        font-weight: 500;
+        padding-bottom: 5px;
+    }
+    .get-it-btn1:hover{
+        color: white;
+
+    }
+    #left-head{
+        font-family: "poppins";
+        font-weight: 400;
+        color: white;
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+  
+    #jorden-men{
+        font-family: "poppins";
+        margin-top: 70px;
+    }
+    #jordan-men-title{
+        margin-top: -40px;
+        font-family: "oswald";
+    }
+    #jordan-men-desc{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: -50px;
+    }
+    #jorden-men-btn{
+        width: 100px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 0;
+
+font-size: 20px;
+font-family:"poppins";
+}
+#videoplayer{
+    width: 90%;
+    
+}
+#video-center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#top-entry-img{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+}
+#homeimg{
+    width:80%;
+}
+#nike-ready-pack{
+    margin-top: -50px;
+}
+#nike-ready-pack-desc{
+    margin-top:-50px;
+    font:"poppins";
+        text-align: center;
+        font-weight: 400;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: white;
+}
+.nike-ready-pack-btn{
+    width: 200px;
+margin-top: 10px;
+background-color: black;
+color: white;
+border:0;
+border-radius: 20px;
+
+font-size: 20px;
+font-family:"poppins";
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.nike-ready-pack-btn:hover{
+    box-shadow: 0px 0px 20px white;
+}
+
+#nike-tech{
+    margin-top: 80px;
+    margin-bottom: 5px;
+}
+.nike-tech-btn{
+    width: 200px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border:0;
+    border-radius: 20px;
+    
+    font-size: 20px;
+    font-family:"poppins";
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nike-tech-btn:hover{
+    box-shadow: 0px 0px 20px white;
+}
+#card_tech{
+    margin-top: 0;
+}
+#essentials-card_row{
+    margin-bottom: 50px;
+}
+#Essentials-img{
+    width:250px;
+    height: 370px;
+    box-shadow: 7px 7px 30px black;
+}
+#jorden-men-btn:hover{
+    box-shadow: 0px 0px 20px white;
+}
+#endcard-bg{
+    width: 100%;
+    
+    height: 100%;
+    margin-top: 50px;
+    background-color: black;
+    
+}
+#endcard1{
+    color: white;
+    margin-top: 0;
+    font-family: "oswald";
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.col-lg-2{
+    margin: 0;
+    padding: 0;
+}
+#dont-miss-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#downcard1{
+    margin-top: 40px;
+}
+.divider-down{
+    width: 100%;
+    background-color: grey;
+    height: 1px;
+}
+#small-text-end{
+    font-family: "poppins";
+    color: gray;
+    text-align: left;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+#downcard2{
+    margin-top: 40px;
+}
+#downcard4{
+    display: flex;
+    justify-content: end;
+    
+}
+#location-end-col{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+}
+#location-text{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: 40px;
+}
+#location-desc{
+    color: gray;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 200;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.col-lg-3{
+    padding: 0;
+    margin: 0;
+}
+#location-end-col1{
+    display: flex;
+    justify-content: end;
+   
+
+}
+#terms{
+    margin-top: 40px;
+    margin-right: 20px;
+    font-family: "poppins";
+    font-weight: 300;
+}

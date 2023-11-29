@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="storestyles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img src="images/logo.png" id="logo" />
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="home.html">HOME</a></li>
+
+            <li class="active"><a href="#">STORE</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                >PRODUCTS<span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a href="">MENS</a></li>
+                <li><a href="">WOMENS</a></li>
+                <li><a href="">KIDS</a></li>
+                <li><a href="">JORDAN</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="contact.html">SIGN IN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------------------------------------------------------------------------------------------------------------------->
+    <!--                                                INTRO                                                                              -->
+    <!--------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="row">
+      <div class="col-lg-12">
+        <img
+          src="images/store intro.jpg"
+          alt=""
+          width="90%"
+          style="margin-top: 50px"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 style="font-family: 'poppins'; color: white; font-weight: 300">
+          Nike InfinityRN 4
+        </h3>
+      </div>
+    </div>
+    <div class="jumbotron" style="background-color: transparent">
+      <h1
+        class="display-4"
+        style="
+          font-family: 'oswald';
+          color: white;
+          text-align: center;
+          margin-top: -40px;
+        "
+      >
+        SUPPORT IS ALL AROUND YOU
+      </h1>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <h3
+          style="
+            font-family: 'poppins';
+            color: white;
+            font-weight: 300;
+            text-align: center;
+            margin-top: -60px;
+          "
+        >
+          Lace up with a supportive, stylish shoe like InfinityRN 4-and nothing
+          can stop you from feeling like your best self
+        </h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <button
+          id="btnhovereffect"
+          style="
+            color: white;
+            background-color: black;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border: 0;
+            border-radius: 20px;
+            font-weight: 500;
+            width: 150px;
+            margin-top: 30px;
+            font-family: 'poppins';
+            font-size: 20px;
+          "
+        >
+          Shop
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <img
+          src="images/marathon.jfif"
+          width="60%"
+          style="
+            margin-top: 40px;
+            box-shadow: 7px 7px 30px black;
+            border-radius: 10px;
+          "
+        />
+      </div>
+      <div class="col-lg-6" style="display: block">
+        <h1
+          style="
+            font-family: 'teko';
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+          "
+        >
+          Eliud Kipchoge: The Unbreakable Spirit
+        </h1>
+        <p
+          style="
+            font-family: 'poppins';
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 40px;
+          "
+        >
+          Eliud Kipchoge is a Kenyan long-distance running legend, renowned for
+          breaking the two-hour marathon barrier. Born on November 5, 1984, he
+          achieved this feat during the INEOS 1:59 Challenge in 2019. Although
+          not recognized as an official record, it symbolized his incredible
+          talent and determination. Kipchoge also won the Olympic marathon gold
+          in 2016 and dominated major races, setting records. Beyond his
+          athletic prowess, he's admired for his humility and emphasis on hard
+          work. His career is an inspiration, motivating countless individuals
+          worldwide to strive for greatness and push their limits.
+        </p>
+        <h2
+          style="
+            font-family: poppins;
+            color: white;
+            text-align: center;
+            margin-top: 50px;
+          "
+        >
+          Watch an Autobiography
+        </h2>
+        <div
+          style="display: flex; justify-content: center; align-items: center"
+        >
+          <div
+            style="
+              background: url('images/marathonrunner1.gif');
+              height: 60px;
+              border-radius: 20px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 300px;
+              background-repeat: no-repeat;
+              margin-top: 50px;
+              background-position: 30%;
+              border: 0;
+              background-size: cover;
+            "
+          >
+            <div>
+              <a href="https://youtu.be/ec8wgwsm8oA"
+                ><button style="background-color: transparent; border: 0">
+                  <img
+                    src="images/Circled Play.png"
+                    style="filter: invert(100%)"
+                    alt=""
+                  /></button
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron" style="background-color: transparent">
+      <h1
+        class="display-4"
+        style="
+          font-family: 'oswald';
+          margin-left: 20px;
+          color: white;
+          text-align: left;
+          margin-top: 10px;
+        "
+      >
+        MEN
+      </h1>
+    </div>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------->
+    <!--                                                          FEATURED                                                                  -->
+    <!---------------------------------------------------------------------------------------------------------------------------------------->
+
+    <h1
+      style="
+        color: white;
+        font-family: 'poppins';
+        text-align: left;
+        margin-left: 20px;
+      "
+    >
+      Featured
+    </h1>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="card">
+          <div
+            class="card_img"
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 20px;
+            "
+          >
+            <img
+              class="card-img-top"
+              src="images/metcon.jpg"
+              alt="Card image cap"
+              width="350px"
+              height="500px"
+            />
+          </div>
+          <div class="card-body">
+            <h3
+              class="card-title"
+              style="font-family: 'poppins'; color: white; text-align: center"
+            >
+              "Nike Metcon 9"
+            </h3>
+            <p
+              class="card-text"
+              style="font-family: 'poppins'; color: white; text-align: center"
+            >
+              Stable and secure
+            </p>
+          </div>
+          <div
+            class="card-btn1"
+            style="display: flex; justify-content: center; align-items: center"
+          >
+            <button
+              class="get-it-btn"
+              style="
+                background-color: blueviolet;
+                color: white;
+                border: 0;
+                font-family: 'poppins';
+                font-size: 20px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 20px;
+              "
+            >
+              Shop
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6" id="card_row">
+        <div class="card">
+          <div
+            class="card_img"
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 20px;
+            "
+          >
+            <img
+              class="card-img-top"
+              src="images/cortez.webp"
+              alt="Card image cap"
+              width="350px"
+            />
+          </div>
+          <div class="card-body">
+            <h3
+              class="card-title"
+              style="font-family: 'poppins'; color: white; text-align: center"
+            >
+              "Nike Cortez"
+            </h3>
+            <p
+              class="card-text"
+              style="font-family: 'poppins'; color: white; text-align: center"
+            >
+              Do It First
+            </p>
+            <div
+              class="card-btn1"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <button
+                class="get-it-btn"
+                style="
+                  background-color: blueviolet;
+                  color: white;
+                  border: 0;
+                  font-family: 'poppins';
+                  font-size: 20px;
+                  padding-top: 5px;
+                  padding-bottom: 5px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  border-radius: 20px;
+                "
+              >
+                Shop
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------------------------------------------------------------------------------------------------------------------------->
+    <!--                                                           ESSENTIALS                                                              -->
+    <!--------------------------------------------------------------------------------------------------------------------------------------->
+    <h1
+      style="
+        color: white;
+        font-family: 'poppins';
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 40px;
+      "
+    >
+      The Essentials
+    </h1>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card">
+          <div
+            class="card_img"
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 20px;
+            "
+          >
+            <img
+              class="card-img-top"
+              src="images/men cloth.jfif"
+              alt="Card image cap"
+              width="350px"
+              height="500px"
+            />
+          </div>
+          <div class="card-body">
+            <h3
+              class="card-title"
+              style="font-family: 'poppins'; color: white; text-align: center"
+            >
+              "Nike Men Clothing"
+            </h3>
+          </div>
+          <div
+            class="card-btn1"
+            style="display: flex; justify-content: center; align-items: center"
+          >
+            <button
+              class="get-it-btn"
+              style="
+                background-color: blueviolet;
+                color: white;
+                border: 0;
+                font-family: 'poppins';
+                font-size: 20px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 20px;
+              "
+            >
+              Shop
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" id="card_row">
+        <div class="card">
+          <div
+            class="card_img"
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 20px;
+            "
+          >
+            <img
+              class="card-img-top"
+              src="images/men shoe.webp"
+              alt="Card image cap"
+              width="350px"
+              height="500px"
+            />
+          </div>
+          <div class="card-body">
+            <h3
+              class="card-title"
+              style="font-family: 'poppins'; color: white; text-align: center"
+            >
+              "Nike Men Shoes"
+            </h3>
+            <div
+              class="card-btn1"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <button
+                class="get-it-btn"
+                style="
+                  background-color: blueviolet;
+                  color: white;
+                  border: 0;
+                  font-family: 'poppins';
+                  font-size: 20px;
+                  padding-top: 5px;
+                  padding-bottom: 5px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  border-radius: 20px;
+                "
+              >
+                Shop
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div
+            class="card_img"
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 20px;
+            "
+          >
+            <img
+              class="card-img-top"
+              src="images/nike cap.webp"
+              alt="Card image cap"
+              width="350px"
+              height="500px"
+            />
+          </div>
+          <div class="card-body">
+            <h3
+              class="card-title"
+              style="font-family: 'poppins'; color: white; text-align: center"
+            >
+              "Nike Men Accessories"
+            </h3>
+          </div>
+          <div
+            class="card-btn1"
+            style="display: flex; justify-content: center; align-items: center"
+          >
+            <button
+              class="get-it-btn"
+              style="
+                background-color: blueviolet;
+                color: white;
+                border: 0;
+                font-family: 'poppins';
+                font-size: 20px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 20px;
+              "
+            >
+              Shop
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------------------------------------------------------------------------------------------------------------->
+    <!--                                                         Trending                                                              -->
+    <!----------------------------------------------------------------------------------------------------------------------------------->
+    <h1
+      style="
+        color: white;
+        font-family: 'poppins';
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 40px;
+      "
+    >
+      Trending
+    </h1>
+
+    <div class="row">
+      <div class="col-lg-12" id="top-entry-img">
+        <img src="images/img1.jpg" width="90%" style="margin-top: 30px" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 style="font-family: 'poppins'; color: white; font-weight: 300">
+          Just In
+        </h3>
+      </div>
+    </div>
+    <div class="jumbotron" style="background-color: transparent">
+      <h1
+        class="display-4"
+        style="
+          font-family: 'oswald';
+          color: white;
+          text-align: center;
+          margin-top: -40px;
+        "
+      >
+        NIKE READY PACK
+      </h1>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <h3
+          style="
+            font-family: 'poppins';
+            color: white;
+            font-weight: 300;
+            text-align: center;
+            margin-top: -60px;
+          "
+        >
+          The season is here. Start yours prepared with the best touch, agility,
+          precision and speed.
+        </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <button
+          id="btnhovereffect"
+          style="
+            color: white;
+            background-color: black;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border: 0;
+            border-radius: 20px;
+            font-weight: 500;
+            width: 150px;
+            margin-top: 30px;
+            font-family: 'poppins';
+            font-size: 20px;
+          "
+        >
+          Shop
+        </button>
+      </div>
+    </div>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------->
+    <!--                                                  PEGASUS                                                                           -->
+    <!---------------------------------------------------------------------------------------------------------------------------------------->
+    <h1
+      style="
+        color: white;
+        font-family: 'poppins';
+        text-align: left;
+        margin-left: 20px;
+      "
+    >
+      Your Pegasus Shop
+    </h1>
+  </body>
+</html>
